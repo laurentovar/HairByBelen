@@ -1,5 +1,8 @@
 /* font-family: 'Megrim', cursive;
 font-family: 'Raleway', sans-serif; */
+body{
+    background-color: #FBFAF9;
+}
 
 * {
     font-family: 'Raleway', sans-serif; 
@@ -9,6 +12,9 @@ font-family: 'Raleway', sans-serif; */
     --navbar-color: #7F797A;
     --white-color: white;
     --dark-purpleish-color: #685455;
+    --light-pink: #ede7e6;
+    --blueish: #545865;
+    --background-font:'Anonymous Pro', monospace;
 }
 /* ==============NAVBAR============== */
 nav{
@@ -80,4 +86,45 @@ a.nav-link{
     margin-left: 13rem;
     padding: 34px;
     margin-top: 3rem;
+}
+/*===========BACKGROUND=============*/
+.background{
+    width: 62rem;
+    height: 92rem;
+}
+.pink{
+    background-color: var(--light-pink);
+    width: 56rem;
+    margin-left: 3rem;
+    margin-top: 8%;
+    margin-bottom: 5%;
+    height: 87rem;
+}
+.white{
+    background-color: var(--white-color);
+    width: 48rem;
+    margin-left: 7rem;
+    height: 40rem;
+    margin-top: -84rem;
+    padding: 20px;
+}
+.backgroundWords{
+    margin-top: 3rem;
+    font-size: 8rem;
+    text-align: center;
+    color: var(--blueish);
+}
+.blueish{
+    background-color: var(--blueish);
+    width: 40rem;
+    height: 28rem;
+    margin-top: 7rem;
+    text-align: center;
+    margin-left: 11rem;
+}
+.smallWords{
+    font-family: var(--background-font);
+    color: var(--white-color);
+    font-size: 4rem;
+    padding: 31px;
 }
