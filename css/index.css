@@ -8,11 +8,14 @@ font-family: 'Raleway', sans-serif; */
     --header-font:'Megrim',cursive;
     --navbar-color: #7F797A;
     --white-color: white;
+    --dark-purpleish-color: #685455;
 }
 /* ==============NAVBAR============== */
 nav{
     background-color: var(--navbar-color);
-
+}
+.navbar{
+    width: 62rem;
 }
 .navbar-brand{
     font-family: var(--header-font);
@@ -34,9 +37,8 @@ a.nav-link{
 }
 /*===========LANDING SECTION=========== */
 .landingSection{
-
-}
-.landingDivBackground{
+    width: 62rem;
+    height: 97rem;
 }
 #salonBackground{
     width: 62rem;
@@ -47,5 +49,35 @@ a.nav-link{
     margin-top: -98rem;
     width: 62rem;
     height:98rem;
-    
+}
+#logo{
+    width: 46rem;
+    margin-top: -159rem;
+    margin-left: 8rem;
+    transform: rotate(-10deg);
+}
+.heading{
+    font-family: var(--header-font);
+    font-size: 16rem;
+    margin-top: -65rem;
+    margin-left: 0rem;
+    color: var(--white-color);
+    font-weight: bold;
+    text-align: center;
+}
+
+.salonName{
+    font-size: 6rem;
+    text-align: center;
+    margin-top: 2%;
+    color: white;
+}
+#schedule{
+    background-color: var(--dark-purpleish-color);
+    color: var(--white-color);
+    border-radius: 23px;
+    font-size: 3rem;
+    margin-left: 13rem;
+    padding: 34px;
+    margin-top: 3rem;
 }
