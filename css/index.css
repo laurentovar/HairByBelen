@@ -37,9 +37,15 @@ a.nav-link{
 
 }
 .landingDivBackground{
-
 }
 #salonBackground{
     width: 62rem;
     height: 97rem;
+}
+#blackSquare{
+    opacity: 0.2;
+    margin-top: -98rem;
+    width: 62rem;
+    height:98rem;
+    
 }
