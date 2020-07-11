@@ -128,3 +128,15 @@ a.nav-link{
     font-size: 4rem;
     padding: 31px;
 }
+/*==========MEET BELEN=========*/
+.aboutBelen{
+    width: 62rem;
+    height: 100rem;
+}
+.aboutBelenInfoBlue{
+    background-color: var(--blueish);
+    height: 95rem;
+}
+.backgroundBlueInfo{
+    border: 5px solid white;
+}
