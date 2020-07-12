@@ -131,7 +131,7 @@ a.nav-link{
 /*==========MEET BELEN=========*/
 .aboutBelen{
     width: 62rem;
-    height: 100rem;
+    height: 95rem;
 }
 .aboutBelenInfoBlue{
     background-color: var(--blueish);
@@ -181,4 +181,35 @@ a.nav-link{
     font-size: 52px;
     margin-left: 25px;
     margin-right: 25px;
+}
+/*===========BACKGROUND 2=============*/
+/* .blueOutline{
+    border: 18px solid #545865;
+    height: 79rem;
+    width: 41rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -86rem;
+} */
+.white2{
+    background-color: var(--white-color);
+    width: 48rem;
+    margin-left: 7rem;
+    height: 24rem;
+    margin-top: -86rem;
+    padding: 20px;
+}
+.backgroundWords2{
+    margin-top: 3rem;
+    font-size: 5rem;
+    text-align: center;
+    color: var(--blueish);
+}
+#washing{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 228%;
+    margin-top: 15%;
+    display: block;
 }
