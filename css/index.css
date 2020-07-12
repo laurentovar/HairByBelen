@@ -175,3 +175,10 @@ a.nav-link{
     font-size: 8rem;
     margin-top: 4%;
 }
+.aboutInfo{
+    color: var(--white-color);
+    text-align: center;
+    font-size: 52px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
