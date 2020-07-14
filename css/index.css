@@ -213,3 +213,16 @@ a.nav-link{
     margin-top: 15%;
     display: block;
 }
+/*============SERVICES=========== */
+.services{
+    width: 62rem;
+    height: 97rem;
+}
+.servicesLine{
+
+    background-color: var(--blueish);
+}
+.servicesCircle{
+    background-color: var(--dark-purpleish-color);
+
+}
