@@ -14,6 +14,7 @@ body{
     --dark-purpleish-color: #685455;
     --light-pink: #ede7e6;
     --blueish: #545865;
+    --pink: #bdaca9;
     --background-font:'Anonymous Pro', monospace;
 }
 /* ==============NAVBAR============== */
@@ -216,7 +217,7 @@ a.nav-link{
 /*============SERVICES=========== */
 .services, .servicesBackground{
     width: 62rem;
-    height: 110rem;
+    height: 117rem;
 }
 .servicesLine{
     width: 93%;
@@ -244,12 +245,42 @@ a.nav-link{
     margin-top: 3rem;
 }
 .carousel-control-next-icon, .carousel-control-prev-icon {
-    margin-top: 20rem;
+    margin-top: 34rem;
     width: 84px;
     height: 83px;
 }
+.carousel-control-next, .carousel-control-prev {
+    width: 23%;
+}
+  
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: var(--pink);
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid var(--pink);
+  background-color: var(--pink);
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: white;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: white;
+}
+
 .carousel{
-    margin-top: -100rem;
+    margin-top: -106rem;
 }
 .headingServices{
     font-family: var(--header-font);
@@ -268,14 +299,21 @@ a.nav-link{
     background-color: rgba(70,70,70,.25) !important;
     width: 121px;
     height: 10px;
-  }
+}
   
-  .carousel-indicators .active {
+.carousel-indicators .active {
     background-color: var(--blueish) !important;
-  }
-  .carousel-indicators {
-    bottom: -10rem;
-  }
+}
+.carousel-indicators {
+    bottom: -7rem;
+}
+.viewServices{
+    font-size: 64px;
+    letter-spacing: 22px;
+    background-color: var(--white-color);
+    border: var(--white-color);
+    text-decoration: underline;
+}
 
 
 
