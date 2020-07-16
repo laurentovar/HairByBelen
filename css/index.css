@@ -334,4 +334,42 @@ hr{
     letter-spacing: 14px;
 }
 
+/*=============GALLERY=================*/
 
+.gallery, .galleryBackground{
+    width: 62rem;
+    height: 104rem;
+}
+.galleryWhite{
+    background-color: white;
+    background-color: white;
+    width: 91%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 77rem;
+
+}
+.galleryImg{
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 95px;
+    margin-top: -88rem;
+}
+.headingGallery{
+    font-family: var(--header-font);
+    font-size: 11rem;
+    text-align: center;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+    color: white;
+}
+.galleryIndicators {
+    bottom: 10rem;
+}
+.controlGallery{
+    margin-top: 90rem;
+}
+.controlG{
+    width: 83%;
+}
