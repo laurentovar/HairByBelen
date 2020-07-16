@@ -237,7 +237,7 @@ a.nav-link{
     margin-right: auto;
     border-radius: 50%;
 }
-#hairDryer{
+#hairDryer, #hairColor, #comb{
     vertical-align: middle;
     border-style: none;
     width: 67%;
