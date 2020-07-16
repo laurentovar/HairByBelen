@@ -314,6 +314,24 @@ a.nav-link{
     border: var(--white-color);
     text-decoration: underline;
 }
+/*===========BACKGROUND 3=============*/
+.backgroundWords3{
+    margin-top: -87rem;
+    font-size: 13rem;
+    text-align: center;
+    color: var(--blueish);
+}
+hr{
+    border-top: 13px solid var(--pink);
+    width: 90%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 
+}
+.words3{
+    font-size: 3rem;
+    text-align: center;
+    letter-spacing: 14px;
+}
 
 
