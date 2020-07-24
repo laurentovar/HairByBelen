@@ -420,3 +420,16 @@ hr{
     margin-bottom: 0;
 
 }
+.scheduleAppointmentContact{
+    background-color: var(--blueish);
+    font-size: 3rem;
+    border-radius: 23px;
+    padding: 14px;
+    margin-left: 5%;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-decoration: underline;
+}
+.phoneSection{
+    margin-bottom: 2rem;
+}
