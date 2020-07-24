@@ -400,8 +400,23 @@ hr{
 }
 .contactIcons{
     width: 10%;
+    margin-left: 6%;
 
 }
-.addressSection{
-    
+.addressSection, .emailSection, .phoneSection{
+    color: white;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+}
+.addressHeading, .emailHeading, .phoneHeading{
+    font-size: 3.5rem;
+    margin-top: -7rem;
+    margin-left: 20%;
+    text-decoration: underline;
+}
+.addressInfo, .phoneInfo, .emailInfo{
+    font-size: 2.5rem;
+    margin-left: 20%;
+    margin-bottom: 0;
+
 }
