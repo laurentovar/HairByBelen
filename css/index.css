@@ -421,7 +421,7 @@ hr{
 
 }
 .scheduleAppointmentContact{
-    background-color: var(--blueish);
+      background-color: var(--blueish);
     font-size: 3rem;
     border-radius: 23px;
     padding: 14px;
@@ -430,6 +430,32 @@ hr{
     padding-right: 100px;
     text-decoration: underline;
 }
-.phoneSection{
-    margin-bottom: 2rem;
+.mapInfo{
+    width:100%;
 }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .navbar{
+        width: max-content;
+        height: 123px;
+    }
+    #hairByBelenLogo {
+        max-width: 8%;
+    }
+    .navbar-brand {
+        font-size: 2rem;
+        flex: 7%;
+
+    }
+    a.nav-link {
+        font-size: 2rem;
+    }
+    .navbar-collapse {
+        flex-basis: 100%;
+    }
+    .navbar-nav .nav-link {
+        padding-right: 1.5rem!important;
+        padding-left: 1.5rem!important;
+    }
+
+ }
