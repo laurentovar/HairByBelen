@@ -52,6 +52,9 @@ a.nav-link{
     width: 62rem;
     height: 97rem;
 }
+.landingHr{
+    display: none;
+}
 #blackSquare{
     opacity: 0.2;
     margin-top: -98rem;
@@ -435,6 +438,10 @@ hr{
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
+    html {
+        width: 89rem;
+    }
+    /* NAVBAR */
     .navbar{
         width: max-content;
         height: 123px;
@@ -457,5 +464,65 @@ hr{
         padding-right: 1.5rem!important;
         padding-left: 1.5rem!important;
     }
+    /* LANDING SECTION */
+    #salonBackgroundMain{
+        display: block;
+        width: 143.5%;
+        height: 66%;
+    }
+    #salonBackground{
+        display: none;
+    }
+    #blackSquare {
+        opacity: 0.2;
+        margin-top: -66rem;
+        width: 89rem;
+        height: 64rem;
+    }
+    #logo {
+        width: 36rem;
+        margin-top: -100rem;
+        margin-left: 45%;
+    }
+    .heading{ 
+        display: block;
+        font-size: 10rem;
+        margin-top: -38rem;
+        margin-left: 13.5rem;
+        white-space: nowrap;
+        font-weight: bold;
 
- }
+    }
+    .landingHr {
+        display: inline-block;
+        color: white;
+        background-color: white;
+        width: 99%;
+        margin-left: 23%;
+        border-top: 8px solid;
+        margin-top: 1rem;
+    }
+    .salonName {
+        font-size: 6rem;
+        text-align: center;
+        margin-left: 34%;
+        margin-top: -1%;
+        white-space: nowrap;
+        color: white;
+        letter-spacing: 12px;
+    }
+    #schedule {
+        white-space: nowrap;
+        background-color: var(--dark-purpleish-color);
+        color: var(--white-color);
+        border-radius: 23px;
+        font-size: 3rem;
+        margin-left: 29.5rem;
+        padding: 15px;
+        margin-top: -2rem;
+    }
+
+
+    
+
+}
