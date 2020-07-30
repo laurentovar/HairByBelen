@@ -52,6 +52,9 @@ a.nav-link{
     width: 62rem;
     height: 97rem;
 }
+#salonBackgroundMain{
+    display: none;
+}
 .landingHr{
     display: none;
 }
@@ -60,6 +63,9 @@ a.nav-link{
     margin-top: -98rem;
     width: 62rem;
     height:98rem;
+}
+#blackSquare2{
+    display: none;
 }
 #logo{
     width: 46rem;
@@ -473,9 +479,13 @@ hr{
     #salonBackground{
         display: none;
     }
-    #blackSquare {
+    #blackSquare{
+        display: none;
+    }
+    #blackSquare2 {
+        display: block;
         opacity: 0.2;
-        margin-top: -66rem;
+        margin-top: -64rem;
         width: 89rem;
         height: 64rem;
     }
