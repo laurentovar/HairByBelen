@@ -139,6 +139,9 @@ a.nav-link{
     font-size: 4rem;
     padding: 31px;
 }
+.backgroundBig{
+    display: none;
+}
 /*==========MEET BELEN=========*/
 .aboutBelen{
     width: 62rem;
@@ -531,8 +534,55 @@ hr{
         padding: 15px;
         margin-top: -2rem;
     }
+    .background, .pink{
+        display: none;
+    }
+    .backgroundBig{
+        margin-top: -33rem;
+        display: block;
+        background-color: var(--light-pink);
+        height: 52rem;
+    }
+    .whiteBig{
+        background-color: var(--white-color);
+        width: 79%;
+        height: 33%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40rem;
+    }
+    .pinkBig{
+        margin-top: -33rem;
+        display: block;
+        background-color: var(--light-pink);
+        height: 52rem;
 
-
+    }
+    .backgroundWordsBig{
+        letter-spacing: 10px;
+        margin-top: -84rem;
+        font-size: 7rem;
+        text-align: center;
+        color: var(--blueish);
+    }
+    .blueishBig{
+        width: 60%;
+        margin-top: 5%;
+        height: 24%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: var(--blueish);
+    }
+    .smallWordsBig{
+        font-family: var(--background-font);
+        color: var(--white-color);
+        font-size: 3rem;
+        text-align: center;  
+        padding: 10px;  
+    }
     
+
+
+
 
 }
