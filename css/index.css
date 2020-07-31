@@ -167,20 +167,20 @@ a.nav-link{
     width: 28rem;
 }
 .whiteSection{
-        height: 10rem;
-        display: block;
-        margin-left: 21%;
-        margin-top: 7%;
-        width: 35%;
-        background-color: white;
+    height: 10rem;
+    display: block;
+    margin-left: 21%;
+    margin-top: 7%;
+    width: 35%;
+    background-color: white;
 }
 .whiteSection2{
     height: 10rem;
-        display: block;
-        margin-left: 44%;
-        width: 35%;
-        background-color: white;
-        margin-top: -8.5rem;
+    display: block;
+    margin-left: 44%;
+    width: 35%;
+    background-color: white;
+    margin-top: -8.5rem;
 }
 .meetBelen{
     font-family: var(--header-font);
@@ -534,6 +534,7 @@ hr{
         padding: 15px;
         margin-top: -2rem;
     }
+    /* Background1 */
     .background, .pink{
         display: none;
     }
@@ -580,7 +581,12 @@ hr{
         text-align: center;  
         padding: 10px;  
     }
-    
+    /* Meet Belen */
+    .aboutBelen{
+        display: none;
+    }
+  
+   
 
 
 
