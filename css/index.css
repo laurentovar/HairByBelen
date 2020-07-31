@@ -585,6 +585,14 @@ hr{
     .aboutBelen{
         display: none;
     }
+    .backgroundBelenBlueBig{
+
+        height: 49rem;
+        width: 44%;
+        float: right;
+        margin-top: -7rem;
+        background-color: var(--blueish);
+     }
   
    
 
